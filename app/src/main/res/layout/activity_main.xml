@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Tierra"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="130dp"
+        app:srcCompat="@drawable/ic_planet_earth"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <ImageView
+        android:id="@+id/Marte"
+        android:layout_width="43dp"
+        android:layout_height="33dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="170dp"
+        app:srcCompat="@drawable/ic_mars"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <ImageView
+        android:id="@+id/Sol"
+        android:layout_width="121dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_sun" />
+
+    <ImageView
+        android:id="@+id/Mercurio"
+        android:layout_width="28dp"
+        android:layout_height="46dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="70dp"
+        app:srcCompat="@drawable/ic_mercurio"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <ImageView
+        android:id="@+id/Venus"
+        android:layout_width="39dp"
+        android:layout_height="52dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="100dp"
+        app:srcCompat="@drawable/ic_venus"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <ImageView
+        android:id="@+id/Jupiter"
+        android:layout_width="67dp"
+        android:layout_height="51dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="210dp"
+        app:srcCompat="@drawable/ic_jupiter"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageView
+        android:id="@+id/Saturno"
+        android:layout_width="57dp"
+        android:layout_height="47dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="225"
+        app:layout_constraintCircleRadius="250dp"
+        app:srcCompat="@drawable/ic_saturno"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <ImageView
+        android:id="@+id/Urano"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="290dp"
+        app:srcCompat="@drawable/ic_urano"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/Neptuno"
+        android:layout_width="39dp"
+        android:layout_height="35dp"
+        app:layout_constraintCircle="@id/Sol"
+        app:layout_constraintCircleAngle="315"
+        app:layout_constraintCircleRadius="330dp"
+        app:srcCompat="@drawable/ic_neptuno"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
